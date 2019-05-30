@@ -39,3 +39,9 @@ sudo chmod u+s /usr/local/Cellar/nginx/1.2.6/bin/nginx
     1. 配置目录：/usr/local/etc/nginx/nginx.conf
     2. root目录：/usr/local/var/www/
     3. 安装目录：/usr/local/Cellar/nginx/1.15.3/
+
+### swoole 安装
+
+    1. https://linkeddestiny.gitbooks.io/easy-swoole/content/book/chapter01/install.html
+    2. ./configure --prefix=/usr/local/php -enable-fpm --enable-sockets --enable-mbstring=all --with-config-file-path=/etc/php --with-openssl=/usr/local/Cellar/openssl/1.0.2p/ --with-curl=/usr/local/Cellar/curl/7.65.0/
+    3. 
